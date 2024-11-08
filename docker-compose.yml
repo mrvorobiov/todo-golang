@@ -1,0 +1,7 @@
+services:
+  api:
+    image: golang:alpine
+    build:
+      dockerfile: Dockerfile
+    ports:
+      - '80:80'
